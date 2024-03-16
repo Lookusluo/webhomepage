@@ -69,27 +69,6 @@ html {
 
 
 html {
-    /*图片模糊背景＋白色透明卡片+黑色svg*/
-    --svgcolor: #000000;
-    --main-bg-color: url(/static/img/background.jpg);
-    --main-text-color: #000000;
-    --gradient-start: #bd34fe;
-    --gradient-middle: #e0321b;
-    --gradient-end: #41d1ff;
-    --purple-text-color: #747bff;
-    --text-bg-color: rgb(121 163 231);
-    --item-bg-color: rgba(249, 250, 251, 0.42);
-    --item-hover-color: rgba(244, 245, 246, 0.8);
-    --item-left-title-color: #000000;
-    --item-left-text-color: #494949;
-    --footer-text-color: #ffffff;
-    --left-tag-item: #c7e1fa;
-    --card-filter: 0px;
-    --back-filter: 20px;
-    --back-filter-color: #00000030;
-}
-
-html {
     /*蓝色渐变+黑色svg**/
     --svgcolor: #000000;
     --main-bg-color: linear-gradient(50deg, #a2d1ff, #ffffff);
@@ -146,6 +125,27 @@ html {
     --item-left-text-color: #ffffff;
     --footer-text-color: #ffffff;
     --left-tag-item: rgb(27 42 57 / 20%);
+    --card-filter: 0px;
+    --back-filter: 20px;
+    --back-filter-color: #00000030;
+}
+
+html {
+    /*图片模糊背景＋白色透明卡片+黑色svg*/
+    --svgcolor: #000000;
+    --main-bg-color: url(/static/img/background.jpg);
+    --main-text-color: #000000;
+    --gradient-start: #bd34fe;
+    --gradient-middle: #e0321b;
+    --gradient-end: #41d1ff;
+    --purple-text-color: #747bff;
+    --text-bg-color: rgb(121 163 231);
+    --item-bg-color: rgba(249, 250, 251, 0.42);
+    --item-hover-color: rgba(244, 245, 246, 0.8);
+    --item-left-title-color: #000000;
+    --item-left-text-color: #494949;
+    --footer-text-color: #ffffff;
+    --left-tag-item: #c7e1fa;
     --card-filter: 0px;
     --back-filter: 20px;
     --back-filter-color: #00000030;
