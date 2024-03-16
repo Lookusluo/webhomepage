@@ -115,7 +115,7 @@ body {
 
 }
 
-#zyyo-loading {
+#yikaluos-loading {
     background: radial-gradient(white, #d8eaff);
     background-size: 100%;
     background-position: center;
@@ -135,7 +135,7 @@ body {
 
 
 
-#zyyo-loading-center {
+#yikaluos-loading-center {
     height: 150px;
     width: 150px;
     position: relative;
@@ -164,7 +164,7 @@ body {
 
 
 
-.zyyo-filter {
+.yikaluos-filter {
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -174,7 +174,7 @@ body {
     background: var(--back-filter-color);
 }
 
-.zyyo-main {
+.yikaluos-main {
 
     width: 100%;
     transition: transform 0.5s ease;
@@ -183,7 +183,7 @@ body {
     flex-direction: row;
 }
 
-.zyyo-left {
+.yikaluos-left {
     overflow-y: scroll;
     width: 230px;
     height: 100vh;
@@ -195,7 +195,7 @@ body {
 }
 
 
-.zyyo-left::-webkit-scrollbar {
+.yikaluos-left::-webkit-scrollbar {
     display: none;
 }
 
@@ -301,7 +301,7 @@ body {
 
 
 
-.zyyo-right {
+.yikaluos-right {
     width: calc(100% - 230px);
     display: flex;
     padding: 20px;
@@ -629,7 +629,7 @@ footer {
 }
 
 @media (max-width: 800px) {
-    .zyyo-left {
+    .yikaluos-left {
         display: none;
     }
 
@@ -667,7 +667,7 @@ footer {
 
 
 
-    .zyyo-right {
+    .yikaluos-right {
         width: 100%;
     }
 
